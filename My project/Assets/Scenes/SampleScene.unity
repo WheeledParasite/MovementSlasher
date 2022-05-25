@@ -175,6 +175,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8126966019331544131, guid: 1190e373ea7372a4d9599a5f778bd572, type: 3}
+      propertyPath: gravity
+      value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8126966019331544131, guid: 1190e373ea7372a4d9599a5f778bd572, type: 3}
       propertyPath: jump.m_Id
       value: 19a8a1a6-a662-4bba-924e-2935152d4f22
       objectReference: {fileID: 0}
@@ -416,7 +420,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906403436}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &906403439
 Camera:
   m_ObjectHideFlags: 0
@@ -424,7 +428,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906403436}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
